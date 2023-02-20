@@ -185,6 +185,7 @@ pub struct FirestoreListenerParams {
     pub retry_delay: Option<std::time::Duration>,
 }
 
+#[derive(Debug)]
 pub struct FirestoreListener<D, S>
 where
     D: FirestoreListenSupport,
